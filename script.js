@@ -3,7 +3,7 @@
 // The time is currently set for quick testing (Oct 29, 2025 at 11:17 PM IST).
 // Change 'October 29, 2025 23:17:00' to your actual birthday date.
 // =========================================================
-const birthdayDate = new Date("October 31, 2025 22:39:00 GMT+0530").getTime();
+const birthdayDate = new Date("October 31, 2025 23:51:00 GMT+0530").getTime();
 
 // Get the main elements from the HTML
 const timerElement = document.getElementById("timer");
@@ -118,4 +118,5 @@ const countdownInterval = setInterval(function() {
             surprisesSection.scrollIntoView({ behavior: 'smooth' });
         }, 4000); 
     }
+
 }, 1000);
